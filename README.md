@@ -1,91 +1,52 @@
-# 🎵 SoundWave – Premium Music Player
+<div align="center">
 
-<p align="center">
-  <img src="logo.png" alt="SoundWave Logo" width="120">
+# 🎵 SoundWave
+
+### Spotify-Inspired Music Player
+
+<img src="logo.png" width="130" alt="SoundWave Logo"/>
+
+<p>
+A modern, responsive music player built with <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
 </p>
 
-<p align="center">
-  <strong>A modern Spotify-inspired music player built with HTML, CSS, and JavaScript.</strong>
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
 </p>
 
-<p align="center">
+<p>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
-![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge)
+<a href="https://muruanrk.github.io/spotify-clone/">
+<img src="https://img.shields.io/badge/🚀%20Live%20Demo-Open-blue?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/Muruanrk/spotify-clone">
+<img src="https://img.shields.io/badge/⭐%20GitHub-Repository-black?style=for-the-badge"/>
+</a>
 
 </p>
+
+</div>
 
 ---
 
 # 🌐 Live Demo
 
-### 🚀 https://muruanrk.github.io/spotify-clone/
+### 🔗 https://muruanrk.github.io/spotify-clone/
 
 ---
 
-# 📖 About
+# 🎬 Demo Preview
 
-**SoundWave** is a premium music player inspired by modern streaming platforms.
+<p align="center">
 
-It offers an elegant user interface with playlists, music library, lyrics popup, responsive design, and smooth playback controls.
+<img src="screenshots/demo.gif" width="900"/>
 
-The project demonstrates modern frontend development using **HTML**, **CSS**, and **JavaScript** without any frameworks.
-
----
-
-# ✨ Features
-
-## 🎵 Music Player
-
-- Play / Pause Songs
-- Previous / Next Song
-- Progress Bar
-- Volume Control
-- Auto Song Loading
-- Responsive Audio Controls
-
----
-
-## 📚 Music Library
-
-- Playlist Management
-- Library Page
-- Recently Played
-- Liked Songs
-- Custom Playlist
-
----
-
-## 🎨 Premium UI
-
-- Spotify Inspired Interface
-- Beautiful Dark Theme
-- Animated Cards
-- Responsive Layout
-- Sidebar Navigation
-- Search Bar
-
----
-
-## 🎤 Lyrics Window
-
-- Full Screen Lyrics Popup
-- Animated Background
-- Album Cover
-- Song Details
-- Playback Controls
-
----
-
-## 📱 Responsive Design
-
-- Desktop Support
-- Laptop Support
-- Tablet Friendly
-- Mobile Friendly
+</p>
 
 ---
 
@@ -93,23 +54,76 @@ The project demonstrates modern frontend development using **HTML**, **CSS**, an
 
 ## 🏠 Home Page
 
-![Home](screenshots/home.png)
+<p align="center">
+<img src="screenshots/home.png" width="900"/>
+</p>
 
 ---
 
-## 🎵 Music Library
+## 📚 Music Library
 
-![Library](screenshots/library.png)
-
----
-
-## 🎤 Lyrics Player
-
-![Lyrics](screenshots/lyrics.png)
+<p align="center">
+<img src="screenshots/library.png" width="900"/>
+</p>
 
 ---
 
-# 🛠 Technologies Used
+## 🎤 Lyrics Popup
+
+<p align="center">
+<img src="screenshots/lyrics.png" width="900"/>
+</p>
+
+---
+
+# 📖 About
+
+**SoundWave** is a modern Spotify-inspired music player built entirely with HTML, CSS, and JavaScript.
+
+It provides a premium dark user interface, interactive music controls, playlist management, responsive layouts, and an immersive lyrics popup experience.
+
+This project demonstrates frontend development skills, UI design, and responsive web development without using external frameworks.
+
+---
+
+# ✨ Features
+
+### 🎵 Music Player
+
+- ▶ Play & Pause
+- ⏮ Previous Track
+- ⏭ Next Track
+- 🎚 Progress Bar
+- 🔊 Volume Control
+- 🎧 Now Playing Section
+
+### 📚 Library
+
+- Playlist View
+- Recently Played
+- Albums
+- Artists
+- Liked Songs
+
+### 🎨 UI
+
+- Spotify-inspired Design
+- Premium Dark Theme
+- Responsive Layout
+- Sidebar Navigation
+- Search Bar
+- Smooth Animations
+
+### 🎤 Lyrics
+
+- Full Screen Lyrics Popup
+- Animated Background
+- Song Information
+- Interactive Controls
+
+---
+
+# 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
@@ -117,7 +131,7 @@ The project demonstrates modern frontend development using **HTML**, **CSS**, an
 | CSS3 | Styling |
 | JavaScript | Functionality |
 | Git | Version Control |
-| GitHub Pages | Deployment |
+| GitHub Pages | Hosting |
 
 ---
 
@@ -125,15 +139,17 @@ The project demonstrates modern frontend development using **HTML**, **CSS**, an
 
 ```text
 spotify-clone/
+
 │
 ├── screenshots/
+│   ├── demo.gif
 │   ├── home.png
 │   ├── library.png
 │   └── lyrics.png
 │
-├── app.js
-├── style.css
 ├── index.html
+├── style.css
+├── app.js
 ├── logo.png
 ├── README.md
 ├── LICENSE
@@ -150,77 +166,59 @@ Clone the repository
 git clone https://github.com/Muruanrk/spotify-clone.git
 ```
 
-Open the folder
+Move into the project
 
 ```bash
 cd spotify-clone
 ```
 
-Run the project
+Open
 
-Simply open
-
-```
+```text
 index.html
 ```
 
-or use
-
-```
-VS Code Live Server
-```
+Or use **VS Code Live Server**.
 
 ---
 
 # 🎮 How to Use
 
 1. Open the application.
-2. Browse available songs.
-3. Click any song to play.
-4. Use the player controls.
+2. Browse the music library.
+3. Play a song.
+4. Control playback.
 5. Open the lyrics popup.
-6. Explore your music library.
+6. Explore playlists.
 
 ---
 
-# 🌟 Highlights
+# 🚀 Future Enhancements
 
-- Premium User Interface
-- Interactive Music Player
-- Lyrics Overlay
-- Playlist Navigation
-- Responsive Design
-- Fast Performance
-- Clean UI
-- Smooth Animations
-
----
-
-# 🚀 Future Improvements
-
-- User Authentication
-- Online Music Streaming
-- Favorite Songs
+- User Login
 - Playlist Creation
-- Search Suggestions
-- Artist Profile
-- Album Page
-- Equalizer
+- Favorite Songs
 - Shuffle & Repeat
-- Dark / Light Theme
+- Equalizer
+- Artist Profiles
+- Album Pages
+- Search Suggestions
 - Backend Integration
+- REST API
 - Database Support
-- User Accounts
-- Music Upload
-- Offline Support
+- Offline Mode
 
 ---
 
 # 📊 Project Status
 
-✅ Completed
+```text
+██████████████████████░░ 95%
+```
 
-Currently under active improvements.
+✅ Frontend Completed
+
+🚧 Backend Features Planned
 
 ---
 
@@ -238,16 +236,16 @@ git checkout -b feature-name
 3. Commit your changes.
 
 ```bash
-git commit -m "Added new feature"
+git commit -m "Add new feature"
 ```
 
-4. Push to GitHub.
+4. Push the branch.
 
 ```bash
 git push origin feature-name
 ```
 
-5. Create a Pull Request.
+5. Open a Pull Request.
 
 ---
 
@@ -255,23 +253,21 @@ git push origin feature-name
 
 ## Murugan RK
 
-**AI & Data Science Student**
+🎓 AI & Data Science Student
 
-GitHub
-
-https://github.com/Muruanrk
+- GitHub: https://github.com/Muruanrk
 
 ---
 
-# ⭐ Show your Support
+# ⭐ Support
 
-If you like this project,
+If you like this project:
 
 ⭐ Star this repository
 
 🍴 Fork it
 
-📢 Share it with others
+📢 Share it
 
 ---
 
@@ -281,6 +277,10 @@ This project is licensed under the **MIT License**.
 
 ---
 
-<p align="center">
-Made with ❤️ by <b>Murugan RK</b>
-</p>
+<div align="center">
+
+### ❤️ Thanks for visiting!
+
+If you enjoyed this project, please consider giving it a ⭐.
+
+</div>
