@@ -78,7 +78,7 @@ A modern, responsive music player built with <b>HTML</b>, <b>CSS</b>, and <b>Jav
 
 # 📖 About
 
-**SoundWave** is a modern Spotify-inspired music player built entirely with HTML, CSS, and JavaScript.
+**SoundWave** is a modern Spotify-inspired music  player built entirely with HTML, CSS, and JavaScript.
 
 It provides a premium dark user interface, interactive music controls, playlist management, responsive layouts, and an immersive lyrics popup experience.
 
