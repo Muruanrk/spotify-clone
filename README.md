@@ -110,7 +110,7 @@ This project demonstrates frontend development skills, UI design, and responsive
 - Spotify-inspired Design
 - Premium Dark Theme
 - Responsive Layout
-- Sidebar Navigation
+- Sidebar  Navigation
 - Search Bar
 - Smooth Animations
 
